@@ -73,7 +73,7 @@ def get_top5(rq):
         result2 = final.iloc[:5]['volatility'].values.tolist()
     return result[0]
 
-#bot.sendMessage(ID, "start")
+bot.sendMessage(ID, "start")
 
 pre_check = False
 check_buy = False
